@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint src/**/*.ts",
     "fix": "eslint --fix src/**/*.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write 'src/**/*.ts'"
   },
   "keywords": [],
   "author": "Arda Sevinç <ardasevinc.technical@gmail.com>",
