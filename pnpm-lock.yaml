@@ -5,6 +5,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.43.0
   bufferutil: ^4.0.7
   discord.js: ^14.6.0
+  dotenv: ^16.0.3
   erlpack: ^0.1.4
   eslint: ^8.28.0
   eslint-config-prettier: ^8.5.0
@@ -16,6 +17,7 @@ specifiers:
 dependencies:
   bufferutil: 4.0.7
   discord.js: 14.6.0_3cxu5zja4e2r5wmvge7mdcljwq
+  dotenv: 16.0.3
   erlpack: 0.1.4
   utf-8-validate: 5.0.10
   zlib-sync: 0.1.7
@@ -467,6 +469,11 @@ packages:
     dependencies:
       esutils: 2.0.3
     dev: true
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /erlpack/0.1.4:
     resolution: {integrity: sha512-CJYbkEvsB5FqCCu2tLxF1eYKi28PvemC12oqzJ9oO6mDFrFO9G9G7nNJUHhiAyyL9zfXTOJx/tOcrQk+ncD65w==}
